@@ -377,7 +377,7 @@ The data structure for your users can be defined easily. A unique field layout a
 
 ### Assets
 
-[Assets](https://craftcms.com/docs/4.x/assets.html) allow you to manage your files with Craft (images, videos, sounds, PDFs, etc). Assets are assigned to Assets Volumes (handling custom fields) and to Assets and Transform Filestystems corresponding to folders on your server, or on external Cloud servers like Rackspace or Amazon S3.
+[Assets](https://craftcms.com/docs/4.x/assets.html) allow you to manage your files with Craft (images, videos, sounds, PDFs, etc). Assets are assigned to Assets Volumes (handling custom fields) and to Assets and Transform Filesystems corresponding to folders on your server, or on external Cloud servers like Rackspace or Amazon S3.
 
 Craft allows you to apply [transforms](https://craftcms.com/docs/4.x/image-transforms.html) (crop, fit, scale, quality, etc.) to images automatically, either in the control panel or dynamically through templates. That feature allows you to generate all the thumbnails you needs from an initial image.
 
