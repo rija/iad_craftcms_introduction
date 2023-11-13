@@ -764,8 +764,8 @@ In Craft, you interact with the database using [Element Queries](https://craftcm
 
 1. you create an ElementQuery for the type of data you want to get from the database (entries, users, assets, etc.)
 2. you specify the parameters (limit, order, filters, etc.) you want to use.
-3. Your execute the ElementQuery by using the following function: `.all()`, `one()`, `exists()`, `.count()` or `.ids()`
-4. Craft returns an element or an array of elements objects ([entry](https://docs.craftcms.com/api/v4/craft-elements-entry.html), [user](https://docs.craftcms.com/api/v4/craft-elements-user.html), [asset](https://docs.craftcms.com/api/v4/craft-elements-asset.html).
+3. You execute the ElementQuery by using the following function: `.all()`, `one()`, `exists()`, `.count()` or `.ids()`
+4. Craft returns an element or an array of elements objects ([entry](https://docs.craftcms.com/api/v4/craft-elements-entry.html), [user](https://docs.craftcms.com/api/v4/craft-elements-user.html), [asset](https://docs.craftcms.com/api/v4/craft-elements-asset.html)).
 5. You can then display those objects or arrays of objects in your template.
 
 `craft.entries()`, `craft.users()` and `craft.assets()` will be your main tools to retrieve and display your data.
