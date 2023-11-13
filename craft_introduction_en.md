@@ -705,7 +705,7 @@ Let's see how it works practically with a very simple example:
 {% endblock %}
 ```
 
-The `news/index.html` template extends the base layout template. The content defined in the `content` block of the child template replaces / supersedes the content of the `content` block in the parent template. The `htmlTitle` variable defined in the child template is accesible to the parent template.
+The `news/index.html` template extends the base layout template. The content defined in the `content` block of the child template replaces / supersedes the content of the `content` block in the parent template. The `metaTitle` variable defined in the child template is accesible to the parent template.
 
 As a side note, the name of the "parent" template begins with an underscore to tell Craft that template is hidden and cannot be accessed directly via a web browser.
 
